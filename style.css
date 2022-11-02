@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+  background-color: rgb(191, 175, 95);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(10, 10, 10);
+  font-size: small;
+  line-height: 20px;
+}
+
+h1 {
+  color:rgb(45, 40, 21);
+  font-family: 'Bebas Neue', cursive;
+  font-size: x-large;
+  line-height: 50px;
+}
+
+h2 {
+  color:rgb(45, 40, 21);
+  font-family: 'Bebas Neue', cursive;
+  font-size: medium;
+  line-height: 10px;
+}
+
+a {
+  color:rgb(10, 10, 10);
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a:hover {
+  color :rgb(152, 41, 203);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 500px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.073);
+  padding: 30px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      text-align: left;
+  }
+}
